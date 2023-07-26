@@ -17,4 +17,33 @@ body {
       text-align: center;
   }
 
+  body {
+  padding-top: 40px;
+}
+
+.other {
+   
+}
+
+.col-sm-4.other{padding : 20px;}
+
+
+
+.other:after {
+    content: "";
+    background: cornflowerblue;
+    height: 150px;
+    width: 100%;
+    display: block;
+    
+
+}
+
+.other2 {
+  background: #777;
+  height: 100%;
+}
+
+ 
+
 
