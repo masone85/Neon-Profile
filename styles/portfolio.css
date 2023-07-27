@@ -1,8 +1,24 @@
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #f09,
+      0 0 82px #f09, 0 0 92px #f09, 0 0 102px #f09, 0 0 151px #f09;
+  }
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
 body {
   background-color: black;
 }
-
-
 
 h1 {
   color: #fff;
@@ -11,7 +27,12 @@ h1 {
   font-family: "Damion", cursive;
   text-align: center;
   font-size: 100px;
-  
+}
+
+h3 {
+  text-align: center;
+  animation: flicker 1.5s infinite alternate;
+  color:#fff
 }
 
 body {
@@ -37,9 +58,4 @@ body {
 .other2 {
   background: #777;
   height: 100%;
-}
-
- {
-  border: 0.2rem solid #fff;
-  padding: 0.4em;
 }
