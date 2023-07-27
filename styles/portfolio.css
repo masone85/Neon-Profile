@@ -2,41 +2,36 @@ body {
   background-color: black;
 }
 
- .neonText {
-    color: #fff;
-    text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #f09,
-      0 0 82px #f09,
-      0 0 92px #f09,
-      0 0 102px #f09,
-      0 0 151px #f09;
-      font-family: 'Damion', cursive;
-      text-align: center;
-  }
 
-  body {
+
+h1 {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #f09,
+    0 0 82px #f09, 0 0 92px #f09, 0 0 102px #f09, 0 0 151px #f09;
+  font-family: "Damion", cursive;
+  text-align: center;
+  font-size: 100px;
+  
+}
+
+body {
   padding-top: 40px;
 }
 
 .other {
-   
 }
 
-.col-sm-4.other{padding : 20px;}
-
-
+.col-sm-4.other {
+  padding: 20px;
+}
 
 .other:after {
-    content: "";
-    background: cornflowerblue;
-    height: 150px;
-    width: 100%;
-    display: block;
-    
-
+  content: "";
+  background: rgb(21, 21, 21);
+  height: 150px;
+  width: 100%;
+  display: block;
+  border-radius: 4%;
 }
 
 .other2 {
@@ -44,6 +39,7 @@ body {
   height: 100%;
 }
 
- 
-
-
+ {
+  border: 0.2rem solid #fff;
+  padding: 0.4em;
+}
