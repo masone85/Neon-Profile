@@ -32,7 +32,9 @@ h1 {
 h3 {
   text-align: center;
   animation: flicker 1.5s infinite alternate;
-  color:#fff
+  color:#fff;
+  font-family: 'Tilt Neon', cursive;
+  
 }
 
 body {
