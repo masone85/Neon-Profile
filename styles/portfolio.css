@@ -32,16 +32,17 @@ h1 {
 h3 {
   text-align: center;
   animation: flicker 1.5s infinite alternate;
-  color:#fff;
-  font-family: 'Tilt Neon', cursive;
-  
+  color: #fff;
+  font-family: "Tilt Neon", cursive;
+  padding-bottom: 30px;
+}
+
+.hero {
+  text-align: center;
 }
 
 body {
   padding-top: 40px;
-}
-
-.other {
 }
 
 .col-sm-4.other {
