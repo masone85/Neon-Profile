@@ -29,12 +29,20 @@ h1 {
   font-size: 100px;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 h3 {
   text-align: center;
   animation: flicker 1.5s infinite alternate;
   color: #fff;
   font-family: "Tilt Neon", cursive;
   padding-bottom: 30px;
+}
+
+p {
+  font-size: 16px;
 }
 
 .hero {
