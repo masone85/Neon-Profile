@@ -16,9 +16,7 @@
   }
 }
 
-body {
-  background-color: black;
-}
+
 
 h1 {
   color: #fff;
@@ -47,6 +45,11 @@ p {
 
 .hero {
   text-align: center;
+  background-color: black;
+}
+
+.banner {
+  background-color: #BF7399;
 }
 
 body {
@@ -82,4 +85,9 @@ body {
 
 .btn :hover {
   color: #c0729a;
+}
+
+.portfolio {
+  background-color: black;
+  color: #fff;
 }
