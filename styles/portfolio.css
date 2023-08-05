@@ -96,3 +96,10 @@ body {
   background-color: black;
   color: #fff;
 }
+
+img {
+  
+  border-radius: 4%;
+  display: block;
+  margin: 0 auto;
+}
