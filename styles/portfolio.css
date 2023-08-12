@@ -22,12 +22,12 @@ h1 {
     0 0 82px #f09, 0 0 92px #f09, 0 0 102px #f09, 0 0 151px #f09;
   font-family: "Damion", cursive;
   text-align: center;
-  font-size: 100px;
+  font-size: 150px;
 }
 
 h2 {
   font-family: "Damion", cursive;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 h3 {
@@ -39,9 +39,12 @@ h3 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 25px;
   font-family: "Tilt Neon", cursive;
+  line-height: 50px;
 }
+
+
 
 .hero {
   text-align: center;
@@ -50,11 +53,10 @@ p {
 
 .banner {
   background: rgb(0, 0, 0);
-  opacity: 95%;
+
   padding: 1px;
   color: #fff;
   font-family: "Tilt Neon", cursive;
-  
 }
 
 body {
@@ -98,8 +100,5 @@ body {
 }
 
 img {
-  
   border-radius: 4%;
-  display: block;
-  margin: 0 auto;
 }
